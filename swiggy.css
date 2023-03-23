@@ -1,27 +1,30 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-family: "ProximaNova",arial,Helvetica,sans-serif;
     letter-spacing: 0;
     box-sizing: border-box;
  }
  .main{
     display: flex;
  }
+
  .main .left{
     height: 468px;
     width: 680px;
     margin-top: 77px;
     margin-right: 60px;
  }
+
  .main .left nav img{
     width: 30%;
  }
+
  .main .left nav{
     display: flex;
-    justify-content: center;
     justify-content: space-around;
  }
+
  .left nav .sign-up{
     width: 110px;
     height: 36px;
@@ -31,9 +34,11 @@
     color: white;
     border: none;
  }
+
  .left nav .sign-up:hover{
    cursor: pointer;
  }
+
  .left nav button.login{
     color: black;
     background-color: transparent;
@@ -43,34 +48,38 @@
     margin-top: 6px;
     font-size: 16px;  
  }
+
  .left nav button.login:hover{
     color: rgb(252,128, 25);
     cursor: pointer;
 }
+
 .main .main-img{
     width: 530px;
 }
+
 .main .left .txt{
     margin-left: 63px;
     margin-top: 77px;
 }
+
 .left .txt h1{
     color: #282c3f;
-    font-size: 40px;
-    
-    
+    font-size: 40px;  
 }
+
 .left .txt p{
     margin-top: 5px;
     font-size: 24px;
     font-weight: 200;
     color: rgb(104,107,120);
-
 }
+
 .left .txt .inp{
     display: flex;
     margin-top: 22px;
 }
+
 .left .txt input{
     color: rgb(40,44,63);
     font-size: 16px;
@@ -83,6 +92,7 @@
     padding-left: 15px;
 
 }
+
 .left .txt .inp button{
     width: 180px;
     height: 58px;
@@ -93,6 +103,7 @@
     color: white;
 
 }
+
 .india{
     font-size: 15px;
     margin-top: 30px;
@@ -100,6 +111,7 @@
     font-weight:400;
     color: rgb(169,171,178);
 }
+
 .cities{
     color: rgb(104, 107, 120);
     font-size: 16px;
@@ -109,9 +121,11 @@
     text-decoration-style: solid;
 
 }
+
 .cities-span{
     color: rgb(147,149,159);
 }
+
 .advertisement{
     display:flex ;
     background-color: rgb(36, 19, 7);
@@ -119,50 +133,61 @@
     padding-bottom: 80px;
     justify-content: space-between;
 }
+
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items:center; 
 }
+
 .image{
    
     height:200px;
     width:100px;
 }
+
 .image img{
     width: 100%;
 }
+
 .last-image{
     position:relative;
     bottom: -32px;
 }
+
 .card-heading{
     font-size: 20px;
     font-weight: 600;
     text-align: center;
 
 }
+
 .card-text{
     font-size: 14px;
+
     margin-top: 10px;
     color: #e0cbc1;
     line-height: 1.3;
     text-align: center;
     width:260px;
 }
+
 .restaurant{
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
+
 .restaurant img{
    height: 489px;
    width: 384px;
 }
+
 .restaurant .text{
     margin-top: 84px;
 }
+
 .restaurant-heading{
     font-size: 40px;
     font-weight: 600;
@@ -170,6 +195,7 @@
     line-height: 1;
     letter-spacing: -.45px;
 }
+
 .restaurant-text{
     font-size: 20px;
     width: 400px;
@@ -179,14 +205,17 @@
     color: #7e808c;
     line-height: 1.2;
 }
+
 .app{
     height: 57.5px;
 }
+
 .app img{
     height: 54px;
     width: 179px;
     margin-right: 20px;
 }
+
 .footer{
     display: flex;
     justify-content: center;
@@ -196,22 +225,26 @@
     border-bottom: 1px solid #4d4d4d;
     padding: 30px 0 40px;
 }
+
 .footer-list {
     width: 25%;
     margin-inline: 33px;
 }
+
 .footer-heading{
     color: gray;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 30px;
 }
+
 .footer-text{
     font-weight: 150;
     font-size: 15px;
     margin-top: 15px;
     cursor: pointer;
 }
+
 .footer-list img{
     height:65px;
     width: 200px;
@@ -220,12 +253,14 @@
     margin-bottom:15px ;
     cursor: pointer;
 }
+
 .footer-deliver-to{
     color: gray;
     font-size: 15px;
     font-weight: 600;
     display: block;
 }
+
 .footer-end{
     display:grid;
     grid-template-columns: 142px 1fr 216px;
@@ -236,16 +271,19 @@
     border-bottom: 1px solid #4d4d4d;
     padding: 30px 0 40px;
 }
+
 .footer-end-list{
     margin-inline: 33px;
     height: 42px;
 }
+
 .logo{
     height: 42px;
     width: 142px;
     cursor: pointer;
    
 }
+
 .copyright{
     padding-top: 10px;
     text-align: center;
@@ -254,10 +292,12 @@
 
 
 }
+
 .box{
     height: 27px;
     width: 180px;
 }
+
 .box img{
     height: 24px;
     width :24px;
